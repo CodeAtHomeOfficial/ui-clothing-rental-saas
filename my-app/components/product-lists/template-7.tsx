@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProductListTemplate4 = () => {
+const ProductListTemplate7 = () => {
   const products = [
     {
       id: 1,
@@ -16,17 +16,16 @@ const ProductListTemplate4 = () => {
         "Eight shirts arranged on table in black, olive, grey, blue, white, red, mustard, and green.",
     },
     {
-      id: 1,
-      name: "Basic Tee 8-Pack",
+      id: 2,
+      name: "Basic Tee",
       href: "#",
-      price: "$256",
+      price: "$32",
       description:
-        "Get the full lineup of our Basic Tees. Have a fresh shirt all week, and an extra for laundry day.",
-      options: "8 colors",
+        "Look like a visionary CEO and wear the same black t-shirt every day.",
+      options: "Black",
       imageSrc:
-        "https://tailwindui.com/img/ecommerce-images/category-page-02-image-card-01.jpg",
-      imageAlt:
-        "Eight shirts arranged on table in black, olive, grey, blue, white, red, mustard, and green.",
+        "https://tailwindui.com/img/ecommerce-images/category-page-02-image-card-02.jpg",
+      imageAlt: "Front of plain black t-shirt.",
     },
     {
       id: 1,
@@ -42,17 +41,16 @@ const ProductListTemplate4 = () => {
         "Eight shirts arranged on table in black, olive, grey, blue, white, red, mustard, and green.",
     },
     {
-      id: 1,
-      name: "Basic Tee 8-Pack",
+      id: 2,
+      name: "Basic Tee",
       href: "#",
-      price: "$256",
+      price: "$32",
       description:
-        "Get the full lineup of our Basic Tees. Have a fresh shirt all week, and an extra for laundry day.",
-      options: "8 colors",
+        "Look like a visionary CEO and wear the same black t-shirt every day.",
+      options: "Black",
       imageSrc:
-        "https://tailwindui.com/img/ecommerce-images/category-page-02-image-card-01.jpg",
-      imageAlt:
-        "Eight shirts arranged on table in black, olive, grey, blue, white, red, mustard, and green.",
+        "https://tailwindui.com/img/ecommerce-images/category-page-02-image-card-02.jpg",
+      imageAlt: "Front of plain black t-shirt.",
     },
     {
       id: 1,
@@ -68,32 +66,22 @@ const ProductListTemplate4 = () => {
         "Eight shirts arranged on table in black, olive, grey, blue, white, red, mustard, and green.",
     },
     {
-      id: 1,
-      name: "Basic Tee 8-Pack",
+      id: 2,
+      name: "Basic Tee",
       href: "#",
-      price: "$256",
+      price: "$32",
       description:
-        "Get the full lineup of our Basic Tees. Have a fresh shirt all week, and an extra for laundry day.",
-      options: "8 colors",
+        "Look like a visionary CEO and wear the same black t-shirt every day.",
+      options: "Black",
       imageSrc:
-        "https://tailwindui.com/img/ecommerce-images/category-page-02-image-card-01.jpg",
-      imageAlt:
-        "Eight shirts arranged on table in black, olive, grey, blue, white, red, mustard, and green.",
+        "https://tailwindui.com/img/ecommerce-images/category-page-02-image-card-02.jpg",
+      imageAlt: "Front of plain black t-shirt.",
     },
     // More products...
   ];
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-        <div className="border-b border-gray-200 pb-10">
-          <h1 className="text-4xl font-bold tracking-tight text-gray-900">
-            List Product
-          </h1>
-          <p className="mt-4 text-base text-gray-500">
-            Checkout out the latest release of Basic Tees, new and improved with
-            four openings!
-          </p>
-        </div>
         <h2 className="sr-only">Products</h2>
 
         <div className="grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-3 lg:gap-x-8">
@@ -134,4 +122,4 @@ const ProductListTemplate4 = () => {
   );
 };
 
-export default ProductListTemplate4;
+export default ProductListTemplate7;

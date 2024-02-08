@@ -1,24 +1,100 @@
-import React from 'react'
+import React from "react";
 
 const ProductListTemplate2 = () => {
-    const products = [
-        {
-          id: 1,
-          name: 'Leather Long Wallet',
-          color: 'Natural',
-          price: '$75',
-          href: '#',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg',
-          imageAlt: 'Hand stitched, orange leather long wallet.',
-        },
-        // More products...
-      ]
+  const products = [
+    {
+      id: 1,
+      name: "Leather Long Wallet",
+      color: "Natural",
+      price: "$75",
+      href: "#",
+      imageSrc:
+        "https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg",
+      imageAlt: "Hand stitched, orange leather long wallet.",
+    },
+    {
+      id: 1,
+      name: "Leather Long Wallet",
+      color: "Natural",
+      price: "$75",
+      href: "#",
+      imageSrc:
+        "https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg",
+      imageAlt: "Hand stitched, orange leather long wallet.",
+    },
+    {
+      id: 1,
+      name: "Leather Long Wallet",
+      color: "Natural",
+      price: "$75",
+      href: "#",
+      imageSrc:
+        "https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg",
+      imageAlt: "Hand stitched, orange leather long wallet.",
+    },
+    {
+      id: 1,
+      name: "Leather Long Wallet",
+      color: "Natural",
+      price: "$75",
+      href: "#",
+      imageSrc:
+        "https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg",
+      imageAlt: "Hand stitched, orange leather long wallet.",
+    },
+    {
+      id: 1,
+      name: "Leather Long Wallet",
+      color: "Natural",
+      price: "$75",
+      href: "#",
+      imageSrc:
+        "https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg",
+      imageAlt: "Hand stitched, orange leather long wallet.",
+    },
+    {
+      id: 1,
+      name: "Leather Long Wallet",
+      color: "Natural",
+      price: "$75",
+      href: "#",
+      imageSrc:
+        "https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg",
+      imageAlt: "Hand stitched, orange leather long wallet.",
+    },
+    {
+      id: 1,
+      name: "Leather Long Wallet",
+      color: "Natural",
+      price: "$75",
+      href: "#",
+      imageSrc:
+        "https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg",
+      imageAlt: "Hand stitched, orange leather long wallet.",
+    },
+    {
+      id: 1,
+      name: "Leather Long Wallet",
+      color: "Natural",
+      price: "$75",
+      href: "#",
+      imageSrc:
+        "https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg",
+      imageAlt: "Hand stitched, orange leather long wallet.",
+    },
+    // More products...
+  ];
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <div className="md:flex md:items-center md:justify-between">
-          <h2 className="text-2xl font-bold tracking-tight text-gray-900">Trending products</h2>
-          <a href="#" className="hidden text-sm font-medium text-indigo-600 hover:text-indigo-500 md:block">
+          <h2 className="text-2xl font-bold tracking-tight text-gray-900">
+            Trending products
+          </h2>
+          <a
+            href="#"
+            className="hidden text-sm font-medium text-indigo-600 hover:text-indigo-500 md:block"
+          >
             Shop the collection
             <span aria-hidden="true"> &rarr;</span>
           </a>
@@ -41,20 +117,25 @@ const ProductListTemplate2 = () => {
                 </a>
               </h3>
               <p className="mt-1 text-sm text-gray-500">{product.color}</p>
-              <p className="mt-1 text-sm font-medium text-gray-900">{product.price}</p>
+              <p className="mt-1 text-sm font-medium text-gray-900">
+                {product.price}
+              </p>
             </div>
           ))}
         </div>
 
         <div className="mt-8 text-sm md:hidden">
-          <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+          <a
+            href="#"
+            className="font-medium text-indigo-600 hover:text-indigo-500"
+          >
             Shop the collection
             <span aria-hidden="true"> &rarr;</span>
           </a>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProductListTemplate2
+export default ProductListTemplate2;
